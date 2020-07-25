@@ -1,0 +1,35 @@
+/**
+ * rota /recursos
+ */
+
+ /**
+  * métods HTTP:
+  * 
+  * GET: buscar/listar uma info do back-end
+  * POST: Criar uma info no back-end
+  * PUT: Alterar... 
+  * DELETE: Deletar...
+  */
+
+  /**
+   * tipos de parametros:
+   * 
+   * Query parms: parametros noemados enviados na rota após "?" (Filtros, paginação)
+   * Route parms:    //      utilizados para identificar recursos.
+   * Request Body: corpo da requisicao utilizado prar criar ou alterar 
+   */
+
+ENTIDADE = representa tudo que for guardado no banco de dados
+ex:
+-ONG
+-casos(incidents)
+
+FUNCIONALIDADES = coisas que as entidades podem fazer na aplicação
+ex:
+-login de ong
+-cadastro de ong
+-logout de ong
+-cadastrar novos casos
+-listar casos especificos de uma ong
+-listar todos os casos
+-entrar em contato com a ong
